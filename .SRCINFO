@@ -1,0 +1,16 @@
+pkgbase = drupal-console-launcher
+	pkgdesc = The Drupal Console is a suite of tools that you run on a command line interface (CLI) to generate boilerplate code and interact with a Drupal installation. This package installs the global launcher
+	pkgver = 1.9.7
+	pkgrel = 1
+	url = http://drupalconsole.com/
+	install = drupal-console-launcher.install
+	arch = any
+	license = GPL
+	makedepends = composer
+	depends = php
+	source = https://github.com/hechoendrupal/drupal-console-launcher/releases/download/1.9.7/drupal.phar
+	source = https://raw.github.com/hechoendrupal/drupal-console-launcher/1.9.7/LICENSE
+	sha512sums = ddb992e65662dbde9e48d97d5d5900e341f24da92bf1bad0cdf28690d34229d037ef02f4995c9ca83c498a84cf98e66b75d1f12206746a633f8e0db030f8ca82
+	sha512sums = 2540a2214e70e97c3f4bba2fe95d3ebfdb5a6b66c056cfe1ae5ce259bfc203b8273eb46adc0adf4aec069ef01de7e2223403267f4398c4171bc7e763140f40b6
+
+pkgname = drupal-console-launcher
